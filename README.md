@@ -2,7 +2,7 @@
 
 插件背景：使小程序端bug集中到tracup上，便于管理
 
-######使用说明：
+###### 使用说明：
 
 1. 下载该插件将其放置在小程序的根目录
 2. 在app.json中全局引入quality-ball/component/component
