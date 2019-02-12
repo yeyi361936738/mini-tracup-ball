@@ -1,0 +1,4 @@
+<!--components/quality-ball/quality-ball.wxml-->
+<cover-view wx:if='{{step == 1}}' class='circle circle-black' bindtap='handle'></cover-view>
+<cover-view wx:if='{{step == 2}}' class='circle circle-yellow' bindtap='handle'></cover-view>
+<cover-view wx:if='{{step == 3}}' class='circle circle-green' bindtap='handle'></cover-view>

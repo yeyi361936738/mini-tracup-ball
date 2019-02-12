@@ -1,0 +1,60 @@
+/* quality-ball/view/view.wxss */
+page{
+  padding-bottom: 128rpx
+}
+
+.remark-wrap{
+  padding: 20rpx;
+  height: 500rpx;
+}
+
+.remark{
+  padding: 20rpx;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  width: 670rpx;
+  height: 460rpx;
+  border: 1rpx solid #f0f0f0
+}
+
+.remark-placeholder{
+  line-height: 40rpx;
+}
+
+.add-image-wrap{
+  padding: 20rpx;
+}
+
+.add-image{
+  width: 300rpx;
+  height: 300rpx;
+  border: 1rpx solid #f0f0f0
+}
+
+.image-icon{
+  margin: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.footer-wrap{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 98rpx;
+  padding: 20rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #f0f0f0;
+}
+
+.footer-btn{
+  height: 98rpx;
+  width: 100%;
+  background-color: green;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rpx
+}

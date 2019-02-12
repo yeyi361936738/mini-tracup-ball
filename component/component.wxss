@@ -1,0 +1,24 @@
+/* components/quality-ball/quality-ball.wxss */
+
+.circle {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  position: fixed;
+  right: 20rpx;
+  bottom: 200rpx;
+  background-color: transparent;
+  z-index: 9999;
+}
+
+.circle-black {
+  border: 5rpx solid black;
+}
+
+.circle-yellow {
+  border: 5rpx solid yellow;
+}
+
+.circle-green {
+  border: 5rpx solid green;
+}

@@ -1,0 +1,20 @@
+<!--quality-ball/view/view.wxml-->
+<view class='remark-wrap'>
+  <textarea 
+    class='remark' 
+    placeholder='请输入问题描述，越详细越好'
+    placeholder-class='remark-placeholder'
+    bindinput='getRemark'
+  ></textarea>
+</view>
+
+<view class='add-image-wrap'>
+  <image wx:if='{{img_src}}' class='add-image' src='{{img_src}}' bindtap='uploadImage'></image>
+  <view wx:else class='add-image' bindtap='uploadImage'>
+    <image src='../icon.png' class='image-icon'></image>
+  </view>
+</view>
+
+<view class='footer-wrap'>
+  <view class='footer-btn' bindtap='handleSubmit'>提交</view>
+</view>
