@@ -1,6 +1,6 @@
 ### 小程序质量球
 
-插件背景：使小程序端bug集中到tracup上，便于管理
+插件背景：使小程序端bug集中到[tracup](https://www.tracup.com/)上，便于管理
 
 使用说明：
 
